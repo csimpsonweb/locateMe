@@ -64,7 +64,13 @@
             }
     }
 
+    function home(){
+      alert('homebutton pressed');
 
+    }
+    function refreshArrow(){
+      alert('refreshArrow pressed');
+    }
 
     // Called if something bad happens.
     // 

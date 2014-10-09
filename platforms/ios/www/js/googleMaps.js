@@ -1,7 +1,7 @@
 function success(position) {
   var mapcanvas = document.createElement('div');
   mapcanvas.id = 'mapcontainer';
-  mapcanvas.style.height = '400px';
+  mapcanvas.style.height = '300px';
   mapcanvas.style.width = '320px';
 
   document.querySelector('article').appendChild(mapcanvas);

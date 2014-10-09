@@ -1,18 +1,34 @@
 #container
 {
 	width:320px;
-	height:500px;
+	height:400px;
 	background:#e1e1e1;
 }
 .header
 {
 	width:100%;
-	height:7%;
-	background:#333333;
+	height:6%;
+	background:#E1E1E1;
+}
+.navigationBar
+{
+	height:10%;
+	background:#E1E1E1;
 }
 .mainBody
 {
 	min-height: 93%;
+}
+#homeIcon
+{
+	margin-left:3%;
+	margin-top:5px;
+}
+#arrowIcon
+{
+	float:right;
+	margin-right:3%;
+	margin-top:5px;
 }
 #photoButton
 {
