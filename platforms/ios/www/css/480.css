@@ -1,0 +1,61 @@
+#container
+{
+	width:320px;
+	height:500px;
+	background:#e1e1e1;
+}
+.header
+{
+	width:100%;
+	height:7%;
+	background:#333333;
+}
+.mainBody
+{
+	min-height: 93%;
+}
+#photoButton
+{
+	
+}
+#photoButton:hover
+{
+
+}
+h2
+{
+	background:#0066FF;
+	text-align: center;
+}
+.footer
+{
+
+}
+#mapcontainer
+{
+	height:300px;
+	width:300px;
+}
+#locateMe , #toggle
+{
+	margin-top:-50px;
+	width:100%;
+	background:#0066FF;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#locateMe:hover
+{
+	background:#66A3FF;
+}
+#toggle:hover
+{
+	background:#66A3FF;
+}
+#success
+{
+	width:100%;
+	background:yellow;
+	text-align: center;
+}

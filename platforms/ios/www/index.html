@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <link href="css/480.css" media="only screen and (max-width: 480px)" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/phonegap.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/googleMaps.js"></script>
+        <!--<script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpeQYG4r8-GwBRF8mWRxsVPZ1ag9BR2Cw"></script>-->
+    </head>
+    <body>
+        <div id="container">
+            <div class="header">
+
+            </div>
+            <div class="mainBody">
+                <h2>locateMe</h2>
+                <!--<img style="display:none;width:300px;height:300px;margin-left:10px;" id="smallImage" src="" />-->
+                <p id="geolocation"></p>
+                <section id="wrapper">
+                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+                <article>
+
+                </article>
+                </section>
+            </div>
+            <div class="footer">
+                <!--<div class="takePhoto">
+                    <h1 onclick="capturePhoto();">take photo</h1>
+                </div>-->
+               <div class="locateMe">
+                    <h1 onclick="locateMe();" id="locateMe">gps locate</h1>
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
